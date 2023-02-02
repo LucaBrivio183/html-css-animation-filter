@@ -169,3 +169,29 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: top-white 3s linear alternate;
+}
+
+@keyframes top-white {
+    50% {
+        left: calc(10% + 60px);
+    }
+    100% {
+        left: calc(10% + 90px);
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-white 3s linear alternate;
+}
+
+@keyframes bottom-white {
+    50% {
+        right: calc(20% + 60px);
+    }
+    100% {
+        right: calc(20% + 90px);
+    }
+}
