@@ -175,10 +175,13 @@
 }
 
 @keyframes top-white {
+    0%  {
+        left: 10%;  
+    }
     50% {
         left: calc(10% + 60px);
     }
-    100% {
+    75% {
         left: calc(10% + 90px);
     }
 }
@@ -188,10 +191,13 @@
 }
 
 @keyframes bottom-white {
+    0%  {
+        right: 20%;  
+    }
     50% {
         right: calc(20% + 60px);
     }
-    100% {
+    75% {
         right: calc(20% + 90px);
     }
 }
